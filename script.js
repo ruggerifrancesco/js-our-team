@@ -39,9 +39,9 @@ for (let i = 0; i < teamMembersList.length; i++) {
 // => Function Scheme New Member
 function addNewMember(nameId, role, photoId) {
     const memberCard = {
-        '1: Name Identifier': nameId,
-        '2: Actual Role': role,
-        '3: Photo Identifier': photoId
+        'Name Identifier': nameId,
+        'Actual Role': role,
+        'Photo Identifier': photoId
     };
 
     return memberCard;
