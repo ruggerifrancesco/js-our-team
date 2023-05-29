@@ -63,7 +63,7 @@ for (let i = 0; i < teamMembersList.length; i++) {
     card.appendChild(role);
     card.appendChild(photo);
     column.appendChild(card);
-    gridSection.appendChild(column);
+    row.appendChild(column);
 
 
     // => Console Log Output
