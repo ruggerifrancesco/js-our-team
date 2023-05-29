@@ -13,6 +13,17 @@ body {
         width: 70%; 
     }
 }
+@media screen and (min-width: 1200px) {
+    body {
+        width: 70%;
+
+        /* Try to comment this properties */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
 
 
 .my_card {
