@@ -8,6 +8,12 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
 @media screen and (min-width: 576px) {
     body {
         width: 70%; 
