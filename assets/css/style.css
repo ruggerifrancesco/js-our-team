@@ -1,0 +1,28 @@
+* {
+    outline: 1px solid red;
+}
+body {
+    background-color: #f5f5f1;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        width: 70%; 
+    }
+}
+
+
+.my_card {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 80%; 
+    }
+}
