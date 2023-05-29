@@ -33,6 +33,10 @@ const container = document.createElement('div');
 container.classList.add('container-fluid', 'p-0');
 gridSection.appendChild(container);
 
+const row = document.createElement('div');
+row.classList.add('row', 'row-cols-1', 'row-cols-md-2', 'row-cols-xl-3', 'mx-0');
+container.appendChild(row);
+
 
 for (let i = 0; i < teamMembersList.length; i++) {
     const member = teamMembersList[i];
