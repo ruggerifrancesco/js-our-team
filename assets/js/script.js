@@ -29,10 +29,13 @@ const teamMembersList = [
 
 const gridSection = document.getElementById('gridCardsTeam');
 
+// => Created container Element Boostrap with all classes
 const container = document.createElement('div');
 container.classList.add('container-fluid', 'p-0');
 gridSection.appendChild(container);
 
+// => Created row Element Boostrap with all classes,
+//      Append it to container
 const row = document.createElement('div');
 row.classList.add('row', 'row-cols-1', 'row-cols-md-2', 'row-cols-xl-3', 'mx-0');
 container.appendChild(row);
