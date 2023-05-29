@@ -29,7 +29,7 @@ const teamMembersList = [
 
 for (let i = 0; i < teamMembersList.length; i++) {
     for (let key in teamMembersList[i]) {
-      console.log(key + ': ' + teamMembersList[i][key]);
+      console.log(key, ':', teamMembersList[i][key]);
     }
     // Little temp divider for console.log
     console.log('----------------');
