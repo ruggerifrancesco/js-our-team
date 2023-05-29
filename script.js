@@ -18,7 +18,14 @@ console.log('JS LOADED!');
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
 
-const teamMembersList = [];
+const teamMembersList = [
+    addNewMember('Wayne', 'Barnett', 'Founder & CEO', 'wayne-barnett-founder-ceo.jpg'),
+    addNewMember('Wayne', 'Barnett', 'Founder & CEO', 'wayne-barnett-founder-ceo.jpg'),
+    addNewMember('Wayne', 'Barnett', 'Founder & CEO', 'wayne-barnett-founder-ceo.jpg'),
+    addNewMember('Wayne', 'Barnett', 'Founder & CEO', 'wayne-barnett-founder-ceo.jpg'),
+];
+
+console.log(teamMembersList);
 
 // => Function Scheme New Member
 function addNewMember(name, surname, role, photoId) {
@@ -29,7 +36,7 @@ function addNewMember(name, surname, role, photoId) {
         photo_Id: photoId
     };
 
-    teamMembersList.push(memberCard);
+    return memberCard;
   }
 
 
