@@ -17,3 +17,19 @@ console.log('JS LOADED!');
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+const teamMembersList = [];
+
+// => Function Scheme New Member
+function addNewMember(name, surname, role, photoId) {
+    const memberCard = {
+        name: name,
+        surname: surname,
+        role: role,
+        photo_Id: photoId
+    };
+
+    teamMembersList.push(memberCard);
+  }
+
+
