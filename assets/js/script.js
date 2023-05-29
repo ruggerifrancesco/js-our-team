@@ -29,6 +29,11 @@ const teamMembersList = [
 
 const gridSection = document.getElementById('gridCardsTeam');
 
+const container = document.createElement('div');
+container.classList.add('container-fluid', 'p-0');
+gridSection.appendChild(container);
+
+
 for (let i = 0; i < teamMembersList.length; i++) {
     const member = teamMembersList[i];
 
@@ -61,6 +66,7 @@ for (let i = 0; i < teamMembersList.length; i++) {
     // Little temp divider for console.log
     console.log('----------------');
   }
+
   
 
 // => Function Scheme New Member
