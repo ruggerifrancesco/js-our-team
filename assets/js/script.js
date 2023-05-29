@@ -47,9 +47,9 @@ for (let i = 0; i < teamMembersList.length; i++) {
     const photo = document.createElement('img');
     photo.src = getImgPath(member['Photo Identifier']);
 
+    card.appendChild(photo);
     card.appendChild(name);
     card.appendChild(role);
-    card.appendChild(photo);
     column.appendChild(card);
     row.appendChild(column);
 
