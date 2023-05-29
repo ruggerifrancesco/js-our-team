@@ -41,7 +41,7 @@ for (let i = 0; i < teamMembersList.length; i++) {
     const name = document.createElement('h3');
     name.textContent = member['Name Identifier'];
 
-    const role = document.createElement('p');
+    const role = document.createElement('span');
     role.textContent = member['Actual Role'];
 
     const photo = document.createElement('img');
