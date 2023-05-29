@@ -62,11 +62,11 @@ for (let i = 0; i < teamMembersList.length; i++) {
     card.appendChild(name);
     card.appendChild(role);
     card.appendChild(photo);
-
     column.appendChild(card);
-
     gridSection.appendChild(column);
 
+
+    // => Console Log Output
     for (let key in teamMembersList[i]) {
       console.log(key, ':', teamMembersList[i][key]);
     }
