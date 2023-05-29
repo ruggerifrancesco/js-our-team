@@ -27,7 +27,34 @@ const teamMembersList = [
     addNewMember('Barbara Ramos', 'Graphic Designer', 'barbara-ramos-graphic-designer.jpg'),
 ];
 
+const gridSection = document.getElementById('gridCardsTeam');
+
 for (let i = 0; i < teamMembersList.length; i++) {
+    const member = teamMembersList[i];
+
+    const column = document.createElement('div');
+    column.classList.add('col', 'mb-4');
+
+    const card = document.createElement('div');
+    card.classList.add('my_card');
+
+    const name = document.createElement('h3');
+    name.textContent = member['Name Identifier'];
+
+    const role = document.createElement('p');
+    role.textContent = member['Actual Role'];
+
+    const photo = document.createElement('img');
+    photo.src = member['Photo Identifier'];
+
+    card.appendChild(name);
+    card.appendChild(role);
+    card.appendChild(photo);
+
+    column.appendChild(card);
+
+    gridSection.appendChild(column);
+
     for (let key in teamMembersList[i]) {
       console.log(key, ':', teamMembersList[i][key]);
     }
