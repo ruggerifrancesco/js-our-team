@@ -22,6 +22,12 @@ const row = document.createElement('div');
 row.classList.add('row', 'row-cols-1', 'row-cols-md-2', 'row-cols-xl-3', 'mx-0');
 container.appendChild(row);
 
+//Function to not touch phot id in the list, but update the path
+function getImgPath(photoId) {
+  return `assets/img/${photoId}`;
+}
+
+
 
 for (let i = 0; i < teamMembersList.length; i++) {
     const member = teamMembersList[i];
@@ -39,7 +45,7 @@ for (let i = 0; i < teamMembersList.length; i++) {
     role.textContent = member['Actual Role'];
 
     const photo = document.createElement('img');
-    photo.src = member['Photo Identifier'];
+    photo.src = getImgPath(member['Photo Identifier']);
 
     card.appendChild(name);
     card.appendChild(role);
