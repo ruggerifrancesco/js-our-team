@@ -27,8 +27,6 @@ function getImgPath(photoId) {
   return `assets/img/${photoId}`;
 }
 
-
-
 for (let i = 0; i < teamMembersList.length; i++) {
     const member = teamMembersList[i];
 
