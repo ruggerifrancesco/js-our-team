@@ -52,7 +52,8 @@ for (let i = 0; i < teamMembersList.length; i++) {
     row.appendChild(column);
 
 
-    // => Console Log Output
+    // => Console Log Output 
+    // Would be better a forEach Method
     for (let key in teamMembersList[i]) {
       console.log(key, ':', teamMembersList[i][key]);
     }
