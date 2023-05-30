@@ -42,12 +42,16 @@ span {
 }
 
 .lorem-ipsum {
-    padding: 2rem 10rem;
     line-height: 2rem;
+    padding: 2rem 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
     body {
         width: 80%; 
+    }
+    .lorem-ipsum {
+        padding: 2rem 10rem;
+        line-height: 2rem;
     }
 }
