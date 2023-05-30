@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+main {
+    margin-top: 4rem;
+}
+
 img {
     width: 100%;
     display: block;
@@ -31,10 +35,14 @@ span {
     }
 }
 
-
 .my_card {
     background-color: white;
     width: 100%;
+}
+
+.lorem-ipsum {
+    padding: 2rem 10rem;
+    line-height: 2rem;
 }
 
 @media screen and (min-width: 768px) {
