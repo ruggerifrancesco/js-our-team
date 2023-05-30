@@ -12,6 +12,12 @@ img {
     width: 100%;
     display: block;
     height: auto;
+    margin-bottom: 1rem;
+}
+
+span {
+    display: block;
+    padding-bottom: 1rem;  
 }
 
 @media screen and (min-width: 576px) {
